@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+* {
+    margin: 0 auto;
+    font-family: 'montserrat';
+    background: rgb(0, 0, 0);
+}
+.upper-section {
+    background: #159957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: #FFFFFF;
+    max-width: 550px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    font-size: 35px;
+    font-weight:400;
+    text-align: center;
+    margin-top: 15px;
+    background: none;
+}
+
+main {
+    background: #0e2b53;
+    max-width: 550px;
+    height: 550px;
+    border-radius: 15px;
+}
+input {
+    
+    background: transparent;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 60px;
+    max-width: 211px;
+    text-align: center;
+    border: 0;
+    outline:0;
+
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+::placeholder {
+    color: #FFFFFF;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+
+}
+
+button {
+    margin-bottom: 50px;
+    padding: 5px 25px;
+    border: 3px solid white;
+    background: none;
+    color: white;
+}
