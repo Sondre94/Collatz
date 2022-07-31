@@ -11,15 +11,13 @@ function submit() {
 
       if(number % 2 == 0){
         collatsArr.push(number)
-
         number = number / 2; 
-
       }
       else{
-
         number = (number * 3) + 1;
       }
     }
+    
   collatsArr.push(number)
   console.log(collatsArr)
 }
