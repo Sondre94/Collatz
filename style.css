@@ -3,7 +3,6 @@
 * {
     margin: 0 auto;
     font-family: 'montserrat';
-    background: rgb(0, 0, 0);
 }
 .upper-section {
     background: #159957;  /* fallback for old browsers */
@@ -71,4 +70,15 @@ button {
     border: 3px solid white;
     background: none;
     color: white;
+}
+
+#resultSection {
+    color: white;
+    margin-top: 50px;
+}
+
+#inputNum,
+#collatzLength,
+#collatzMax {
+    margin-top: 45px;
 }
