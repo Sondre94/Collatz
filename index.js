@@ -9,15 +9,16 @@ function submit() {
     while(number != 1){
 
       if(number % 2 === 0){
-        collatsArr.push(number)
         number = number / 2; 
+        collatsArr.push(number)
       }
+
       else{
         number = (number * 3) + 1;
+        collatsArr.push(number)
       }
+      
     }
-    
-  collatsArr.push(number)
   console.log(collatsArr)
 }
 collatz(inputEl.value)
