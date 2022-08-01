@@ -5,7 +5,7 @@ let collatsArr = []
 function submit() {
 
 
-  let collatz = (number) => {
+  function collatz(number) {
     while(number != 1){
 
       if(number % 2 === 0){
@@ -17,7 +17,7 @@ function submit() {
         number = (number * 3) + 1;
         collatsArr.push(number)
       }
-      
+
     }
   console.log(collatsArr)
 }
